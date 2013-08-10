@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[虾米也是虾]]></title>
-  <link href="http://xiamihappy.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: markdown | 虾米也是虾]]></title>
+  <link href="http://xiamihappy.github.io/blog/categories/markdown/atom.xml" rel="self"/>
   <link href="http://xiamihappy.github.io/"/>
   <updated>2013-08-10T23:17:12+08:00</updated>
   <id>http://xiamihappy.github.io/</id>
@@ -34,15 +34,6 @@ Like, seriously, a <em>LoT</em> of text</strong><br/>
 <code>**Sometimes I want a lot of text to bold.  Like, seriously, a *LoT* of text**</code></p>
 
 <h4></h4>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Octopress]]></title>
-    <link href="http://xiamihappy.github.io/blog/2013/08/10/hello-octopress/"/>
-    <updated>2013-08-10T17:48:00+08:00</updated>
-    <id>http://xiamihappy.github.io/blog/2013/08/10/hello-octopress</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
