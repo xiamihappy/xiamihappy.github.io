@@ -4,7 +4,7 @@
   <title><![CDATA[虾米也是虾]]></title>
   <link href="http://xiamihappy.github.io/atom.xml" rel="self"/>
   <link href="http://xiamihappy.github.io/"/>
-  <updated>2013-08-10T23:17:12+08:00</updated>
+  <updated>2013-08-10T23:20:04+08:00</updated>
   <id>http://xiamihappy.github.io/</id>
   <author>
     <name><![CDATA[Xiami Reid]]></name>
@@ -29,8 +29,7 @@
 <em>emphasize</em> (cmd+i)
 <code>*emphasize*</code></p>
 
-<p><strong>Sometimes I want a lot of text to bold.<br/>
-Like, seriously, a <em>LoT</em> of text</strong><br/>
+<p><strong>Sometimes I want a lot of text to bold.Like, seriously, a <em>LoT</em> of text</strong><br/>
 <code>**Sometimes I want a lot of text to bold.  Like, seriously, a *LoT* of text**</code></p>
 
 <h4></h4>
