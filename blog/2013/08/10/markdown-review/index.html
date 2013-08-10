@@ -9,13 +9,7 @@
   <meta name="author" content="Xiami Reid">
 
   
-  <meta name="description" content="Syntax 语法 语气强调 加粗
-strong (cmd+b)
-**strong**
-斜体
-emphasize (cmd+i)
-*emphasize* Sometimes I want a lot of text to bold.Like, seriously, a LoT of text
-** &hellip;">
+  <meta name="description" content="语法 Syntax 语气强调 strong and emphasize 加粗 strong **strong** cmd+b 斜体 emphasize *emphasize* cmd+i Sometimes I want a lot of text to bold.Like, seriously &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -99,21 +93,137 @@ emphasize (cmd+i)
   </header>
 
 
-<div class="entry-content"><h3>Syntax 语法</h3>
+<div class="entry-content"><h3>语法 Syntax</h3>
 
-<h4>语气强调</h4>
+<h4>语气强调 strong and emphasize</h4>
 
-<p>加粗
-<strong>strong</strong>  (cmd+b)
-<code>**strong**</code><br/>
-斜体
-<em>emphasize</em> (cmd+i)
-<code>*emphasize*</code></p>
+<p>加粗 <strong>strong</strong> <code>**strong**</code></p>
+
+<pre><code>cmd+b
+</code></pre>
+
+<p>斜体 <em>emphasize</em> <code>*emphasize*</code></p>
+
+<pre><code>cmd+i
+</code></pre>
 
 <p><strong>Sometimes I want a lot of text to bold.Like, seriously, a <em>LoT</em> of text</strong><br/>
 <code>**Sometimes I want a lot of text to bold.  Like, seriously, a *LoT* of text**</code></p>
 
-<h4></h4>
+<p>删除线 <del>Strikethrough</del> <code>~~Strikethrough~~</code></p>
+
+<pre><code>cmd+u
+</code></pre>
+
+<h4>引用 Blockquetes</h4>
+
+<blockquote><p>Right angle brackets &gt; are used for block quetes.</p></blockquote>
+
+<p><code>&gt; Right angle brackets &amp;gt; are used for block quetes</code></p>
+
+<h4>链接和邮箱 Links and Email</h4>
+
+<h5>简单型：</h5>
+
+<p>邮箱：<a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x65;&#120;&#x61;&#109;&#x70;&#x6c;&#x65;&#x40;&#101;&#x78;&#97;&#109;&#x70;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;">&#x65;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#x40;&#101;&#x78;&#97;&#109;&#112;&#108;&#x65;&#46;&#x63;&#x6f;&#109;</a></p>
+
+<p>链接: <a href="http://xiamihappy.github.io/">http://xiamihappy.github.io/</a></p>
+
+<p>内联型 inline: 这是一个 <a href="http://xiamihappy.github.io/" title="鼠标悬停时显示">链接</a></p>
+
+<p><code>[链接](http://xiamihappy.github.io/ "鼠标悬停时显示")</code></p>
+
+<p><a href="http://xiamihappy.github.io/" title="鼠标悬停时显示">reference style</a><br/>
+<code>[reference style][id]空格空格[id]: http://xiamihappy.github.io/ "鼠标悬停时显示"</code></p>
+
+<pre><code>ctrl+shift+l
+</code></pre>
+
+<h4>注释 Footnotes</h4>
+
+<p>footnote.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<pre><code>footnote.[^1]
+[^1]: And that's the footnote    
+</code></pre>
+
+<h4>列表 Lists</h4>
+
+<pre><code>"*"+Space
+"1."+Space
+</code></pre>
+
+<h4>Hard Linebreak</h4>
+
+<pre><code>control+return    
+</code></pre>
+
+<h4>Inline code and Block code</h4>
+
+<pre><code>cmd+k
+control+return+tab
+</code></pre>
+
+<h4>Fenced Code Blocks</h4>
+
+<p>3 or more backticks</p>
+
+<pre><code>```
+code block.
+``    
+</code></pre>
+
+<h3>Shortcuts</h3>
+
+<h4>Actions</h4>
+
+<ul>
+<li>Copy HTML: Option + Cmd + C</li>
+<li>Strong: Select text, Cmd + B</li>
+<li>Emphasize: Select text, Cmd + I</li>
+<li>Inline Code: Select text, Cmd + K</li>
+<li>Strikethrough: Select text, Cmd + U</li>
+<li>Link: Select text, Control + Shift + L</li>
+<li>Image: Select text, Control + Shift + I</li>
+<li>Select Word: Control + Option + W</li>
+<li>Select Line: Shift + Cmd + L</li>
+<li>Select All: Cmd + A</li>
+<li>Deselect All: Cmd + D</li>
+<li>Convert to Uppercase: Select text, Control + U</li>
+<li>Convert to Lowercase: Select text, Control + Shift + U</li>
+<li>Convert to Titlecase: Select text, Control + Option + U</li>
+<li>Convert to List: Select lines, Control + L</li>
+<li>Convert to Blockquote: Select lines, Control + Q</li>
+<li>Convert to H1: Cmd + 1</li>
+<li>Convert to H2: Cmd + 2</li>
+<li>Convert to H3: Cmd + 3</li>
+<li>Convert to H4: Cmd + 4</li>
+<li>Convert to H5: Cmd + 5</li>
+<li>Convert to H6: Cmd + 6</li>
+<li>Convert Spaces to Tabs: Control + [</li>
+<li>Convert Tabs to Spaces: Control + ]</li>
+<li>Insert Current Date: Control + Shift + 1</li>
+<li>Insert Current Time: Control + Shift + 2</li>
+<li>Insert entity &lt;: Control + Shift + ,</li>
+<li>Insert entity >: Control + Shift + .</li>
+<li>Insert entity &amp;: Control + Shift + 7</li>
+<li>Insert entity Space: Control + Shift + Space</li>
+<li>Insert Scriptogr.am Header: Control + Shift + G</li>
+<li>Shift Line Left: Select lines, Cmd + [</li>
+<li>Shift Line Right: Select lines, Cmd + ]</li>
+<li>New Line: Cmd + Return</li>
+<li>Comment: Cmd + /</li>
+<li>Hard Linebreak: Control + Return</li>
+</ul>
+
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>And that&rsquo;s the footnote<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 </div>
 
 
