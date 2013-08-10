@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[虾米也是虾]]></title>
-  <link href="http://xiamihappy.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: octopress | 虾米也是虾]]></title>
+  <link href="http://xiamihappy.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://xiamihappy.github.io/"/>
   <updated>2013-08-10T17:57:05+08:00</updated>
   <id>http://xiamihappy.github.io/</id>
