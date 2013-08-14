@@ -9,7 +9,13 @@
   <meta name="author" content="Xiami Reid">
 
   
-  <meta name="description" content="语法 Syntax 语气强调 strong and emphasize 加粗 strong **strong** cmd+b 斜体 emphasize *emphasize* cmd+i Sometimes I want a lot of text to bold.Like, seriously &hellip;">
+  <meta name="description" content="Basic Vim j Move down one line G Go to bottom of file H J K L left
+down
+up
+right| yy Yank line
+p Paste above cursor
+i Insert text before cursor
+a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,6 +89,90 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/08/14/start-with-vim/">Start With VIM</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-14T22:24:00+08:00" pubdate data-updated="true">2013年08月14日</time>
+        
+         | <a href="/blog/2013/08/14/start-with-vim/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h4>Basic Vim</h4>
+
+<p><code>j</code> Move down one line</p>
+
+<p><code>G</code> Go to bottom of file</p>
+
+<table>
+<thead>
+<tr>
+<th>H </th>
+<th> J </th>
+<th> K </th>
+<th> L </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>left</td>
+<td>down</td>
+<td>up</td>
+<td>right|</td>
+</tr>
+</tbody>
+</table>
+
+
+<p><code>yy</code> Yank line<br/>
+<code>p</code> Paste above cursor<br/>
+<code>i</code> Insert text before cursor
+<code>a</code> Append text after cursor<br/>
+<code>fN</code> Jump forward to first &lsquo;N&#8217;<br/>
+<code>3fN</code> Jump forward to third &#8216;N&#8217;<br/>
+<code>6l</code> Forward 6 letters<br/>
+<code>2j</code> Down 2 lines<br/>
+<code>w</code> Forward one word<br/>
+<code>cw</code> Change word<br/>
+<code>u</code> Undo
+<code>Ctrl-R</code> Redo</p>
+
+<p><code>d$</code> Delete through end of line</p>
+
+<p><code>c2/end&lt;Return&gt;</code> Change text from cursor through next two occurrences of &ldquo;end&rdquo;</p>
+
+<p><code>i</code> Insert text at cursor(activates Insert mode)在光标前<br/>
+<code>I</code> Insert text at start of line<br/>
+<code>w</code> Move forward by one word
+<code>b</code> Move backward by one word</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/08/10/markdown-review/">Markdown Review</a></h1>
     
     
@@ -140,7 +230,7 @@
 
 <h5>简单型：</h5>
 
-<p>邮箱：<a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x65;&#120;&#97;&#109;&#x70;&#108;&#x65;&#64;&#x65;&#x78;&#97;&#109;&#112;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x65;&#x78;&#x61;&#109;&#x70;&#x6c;&#101;&#64;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
+<p>邮箱：<a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#101;&#120;&#97;&#109;&#x70;&#108;&#101;&#x40;&#x65;&#x78;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#x6d;">&#x65;&#120;&#97;&#x6d;&#x70;&#x6c;&#x65;&#64;&#101;&#120;&#x61;&#109;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#x6d;</a></p>
 
 <p>链接: <a href="http://xiamihappy.github.io/">http://xiamihappy.github.io/</a></p>
 
@@ -364,6 +454,10 @@ or git checkout -b source
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/08/14/start-with-vim/">Start With VIM</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/08/10/markdown-review/">Markdown Review</a>

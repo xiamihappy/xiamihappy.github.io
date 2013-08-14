@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: VIM | 虾米也是虾]]></title>
+  <link href="http://xiamihappy.github.io/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://xiamihappy.github.io/"/>
+  <updated>2013-08-14T22:56:41+08:00</updated>
+  <id>http://xiamihappy.github.io/</id>
+  <author>
+    <name><![CDATA[Xiami Reid]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Start with VIM]]></title>
+    <link href="http://xiamihappy.github.io/blog/2013/08/14/start-with-vim/"/>
+    <updated>2013-08-14T22:24:00+08:00</updated>
+    <id>http://xiamihappy.github.io/blog/2013/08/14/start-with-vim</id>
+    <content type="html"><![CDATA[<h4>Basic Vim</h4>
+
+<p><code>j</code> Move down one line</p>
+
+<p><code>G</code> Go to bottom of file</p>
+
+<table>
+<thead>
+<tr>
+<th>H </th>
+<th> J </th>
+<th> K </th>
+<th> L </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>left</td>
+<td>down</td>
+<td>up</td>
+<td>right|</td>
+</tr>
+</tbody>
+</table>
+
+
+<p><code>yy</code> Yank line<br/>
+<code>p</code> Paste above cursor<br/>
+<code>i</code> Insert text before cursor
+<code>a</code> Append text after cursor<br/>
+<code>fN</code> Jump forward to first &lsquo;N'<br/>
+<code>3fN</code> Jump forward to third 'N'<br/>
+<code>6l</code> Forward 6 letters<br/>
+<code>2j</code> Down 2 lines<br/>
+<code>w</code> Forward one word<br/>
+<code>cw</code> Change word<br/>
+<code>u</code> Undo
+<code>Ctrl-R</code> Redo</p>
+
+<p><code>d$</code> Delete through end of line</p>
+
+<p><code>c2/end&lt;Return&gt;</code> Change text from cursor through next two occurrences of &ldquo;end&rdquo;</p>
+
+<p><code>i</code> Insert text at cursor(activates Insert mode)在光标前<br/>
+<code>I</code> Insert text at start of line<br/>
+<code>w</code> Move forward by one word
+<code>b</code> Move backward by one word</p>
+]]></content>
+  </entry>
+  
+</feed>

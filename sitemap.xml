@@ -2,19 +2,23 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://xiamihappy.github.io/blog/2013/08/10/hello-octopress/</loc>
-        <lastmod>2013-08-11T12:50:52+08:00</lastmod>
+        <lastmod>2013-08-11T13:03:27+08:00</lastmod>
     </url>
     <url>
         <loc>http://xiamihappy.github.io/blog/2013/08/10/markdown-review/</loc>
         <lastmod>2013-08-11T00:58:46+08:00</lastmod>
     </url>
     <url>
+        <loc>http://xiamihappy.github.io/blog/2013/08/14/start-with-vim/</loc>
+        <lastmod>2013-08-14T22:56:06+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://xiamihappy.github.io/blog/archives/</loc>
-        <lastmod>2013-08-11T12:50:52+08:00</lastmod>
+        <lastmod>2013-08-14T22:56:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://xiamihappy.github.io/</loc>
-        <lastmod>2013-08-11T12:50:52+08:00</lastmod>
+        <lastmod>2013-08-14T22:56:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://xiamihappy.github.io/robots.txt</loc>
