@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | 虾米也是虾]]></title>
   <link href="http://xiamihappy.github.io/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://xiamihappy.github.io/"/>
-  <updated>2013-08-18T21:18:05+08:00</updated>
+  <updated>2013-08-18T21:42:29+08:00</updated>
   <id>http://xiamihappy.github.io/</id>
   <author>
     <name><![CDATA[Xiami Reid]]></name>
@@ -104,7 +104,8 @@ format.json { render :json =&gt; @tweet }
 
 <h4>Redirect</h4>
 
-<p><code>match 'all' =&gt; redirect('/tweets')</code></p>
+<p><code>match '/undead' =&gt; redirect('/zombies')</code><br/>
+<code>match 'all' =&gt; redirect('/tweets')</code></p>
 
 <h4>Root Route</h4>
 
