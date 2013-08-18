@@ -5,17 +5,16 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Start with VIM - 虾米也是虾</title>
+  <title>hello rails - 虾米也是虾</title>
   <meta name="author" content="Xiami Reid">
 
   
-  <meta name="description" content="Basic Vim j Move down one line G Go to bottom of file H J K L left
-down
-up
-right| yy Yank line
-p Paste above cursor
-i Insert text before cursor
-a &hellip;">
+  <meta name="description" content="Deep in the crud CRUD Creat Alternate Ayntax t = Tweet.new()
+t.save or Tweet.create() Read Tweet.find(1)
+Tweet.find(3,4,5)
+Tweet.all
+Tweet.last
+Tweet &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,7 +23,7 @@ a &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://xiamihappy.github.io/blog/2013/08/14/start-with-vim">
+  <link rel="canonical" href="http://xiamihappy.github.io/blog/2013/08/18/hello-rails">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="虾米也是虾" type="application/atom+xml">
@@ -86,7 +85,7 @@ a &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Start With VIM</h1>
+      <h1 class="entry-title">Hello Rails</h1>
     
     
       <p class="meta">
@@ -102,7 +101,7 @@ a &hellip;">
   
 
 
-<time datetime="2013-08-14T22:24:00+08:00" pubdate data-updated="true">2013年08月14日</time>
+<time datetime="2013-08-18T15:03:00+08:00" pubdate data-updated="true">2013年08月18日</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -111,57 +110,100 @@ a &hellip;">
   </header>
 
 
-<div class="entry-content"><h4>Basic Vim</h4>
+<div class="entry-content"><h3>Deep in the crud</h3>
 
-<p><code>j</code> Move down one line</p>
+<h4>CRUD</h4>
 
-<p><code>G</code> Go to bottom of file</p>
+<h5>Creat</h5>
 
-<table>
-<thead>
-<tr>
-<th>H </th>
-<th> J </th>
-<th> K </th>
-<th> L </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>left</td>
-<td>down</td>
-<td>up</td>
-<td>right|</td>
-</tr>
-</tbody>
-</table>
+<p>Alternate Ayntax</p>
 
+<pre><code>t = Tweet.new()
+t.save
+</code></pre>
 
-<p><code>yy</code> Yank line<br/>
-<code>p</code> Paste above cursor<br/>
-<code>i</code> Insert text before cursor
-<code>a</code> Append text after cursor<br/>
-<code>fN</code> Jump forward to first &lsquo;N&#8217;<br/>
-<code>3fN</code> Jump forward to third &#8216;N&#8217;<br/>
-<code>6l</code> Forward 6 letters<br/>
-<code>2j</code> Down 2 lines<br/>
-<code>w</code> Forward one word<br/>
-<code>cw</code> Change word<br/>
-<code>u</code> Undo
-<code>Ctrl-R</code> Redo
-<code>vim -N</code> Use newer Vim mode not compatible with original vi<br/>
-<code>:w !sudo tee %</code> with root permissions</p>
+<p>or</p>
 
-<h4>Edit</h4>
+<pre><code>Tweet.create()
+</code></pre>
 
-<p><code>d$</code> Delete through end of line</p>
+<h5>Read</h5>
 
-<p><code>c2/end&lt;Return&gt;</code> Change text from cursor through next two occurrences of &ldquo;end&rdquo;</p>
+<p>Tweet.find(1)
+Tweet.find(3,4,5)
+Tweet.all
+Tweet.last
+Tweet.where(:zomber => &ldquo;ash&rdquo;)</p>
 
-<p><code>i</code> Insert text at cursor(activates Insert mode)在光标前<br/>
-<code>I</code> Insert text at start of line<br/>
-<code>w</code> Move forward by one word
-<code>b</code> Move backward by one word</p>
+<h6>method chaining</h6>
+
+<p>Tweet.where(:zomber => &ldquo;ash&rdquo;).order(:zombie).limit(10)</p>
+
+<h5>Update</h5>
+
+<pre><code>t.attributes()
+t.save
+or
+t.update_attributes()
+</code></pre>
+
+<h5>Delete</h5>
+
+<pre><code>t.destroy
+t.destroy_all  
+</code></pre>
+
+<h3>Models Tasts like chicken</h3>
+
+<pre><code>validates_presentce_of :status
+validates_numericality_of :fingers
+validates_uniqueness_of :toothmarks
+validates_confirmation_of :password
+validates_acceptance_of :zombification
+validates_length_of :password, :minimum =&gt; 3
+validates_format_of :email, :with =&gt; /regex/i
+validates_inclusion_of :age, :in =&gt; 21..99
+validates_exclusion_of :age, :in =&gt; 0..21,
+            :message =&gt; "Sorry you must be over 21"
+</code></pre>
+
+<p>rails3</p>
+
+<pre><code>validates :status, :presence =&gt; true,:length =&gt; { :minimum =&gt; 3 }
+</code></pre>
+
+<p><code>has_many</code> and <code>belongs_to</code></p>
+
+<h3>View</h3>
+
+<pre><code>&lt;% %&gt; evaluate ruby
+&lt;%= %&gt; eval and print result
+</code></pre>
+
+<h3>Controller</h3>
+
+<pre><code>format.html
+format.xml { render :xml =&gt; @tweet }
+format.json { render :json =&gt; @tweet }  
+</code></pre>
+
+<h3>route</h3>
+
+<h4>Named Routes</h4>
+
+<p> <code>match 'all' =&gt; "Tweet#index", :as =&gt; "all_tweets"</code>
+&lt;%= link_to &ldquo;all tweets&rdquo;, all_tweets_path%></p>
+
+<h4>Redirect</h4>
+
+<p><code>match 'all' =&gt; redirect('/tweets')</code></p>
+
+<h4>Root Route</h4>
+
+<pre><code>root :to =&gt; "Tweets#index"
+</code></pre>
+
+<p>Route Parameters</p>
 </div>
 
 
@@ -184,12 +226,12 @@ a &hellip;">
   
 
 
-<time datetime="2013-08-14T22:24:00+08:00" pubdate data-updated="true">2013年08月14日</time>
+<time datetime="2013-08-18T15:03:00+08:00" pubdate data-updated="true">2013年08月18日</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/vim/'>VIM</a>
+    <a class='category' href='/blog/categories/rails/'>rails</a>
   
 </span>
 
@@ -198,7 +240,7 @@ a &hellip;">
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://xiamihappy.github.io/blog/2013/08/14/start-with-vim/" data-via="xiamihappy" data-counturl="http://xiamihappy.github.io/blog/2013/08/14/start-with-vim/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://xiamihappy.github.io/blog/2013/08/18/hello-rails/" data-via="xiamihappy" data-counturl="http://xiamihappy.github.io/blog/2013/08/18/hello-rails/" >Tweet</a>
   
   
   
@@ -207,10 +249,8 @@ a &hellip;">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/08/10/markdown-review/" title="Previous Post: Markdown review">&laquo; Markdown review</a>
+        <a class="basic-alignment left" href="/blog/2013/08/14/start-with-vim/" title="Previous Post: Start with VIM">&laquo; Start with VIM</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/08/18/hello-rails/" title="Next Post: hello rails">hello rails &raquo;</a>
       
     </p>
   </footer>
@@ -272,8 +312,8 @@ a &hellip;">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://xiamihappy.github.io/blog/2013/08/14/start-with-vim/';
-        var disqus_url = 'http://xiamihappy.github.io/blog/2013/08/14/start-with-vim/';
+        var disqus_identifier = 'http://xiamihappy.github.io/blog/2013/08/18/hello-rails/';
+        var disqus_url = 'http://xiamihappy.github.io/blog/2013/08/18/hello-rails/';
         var disqus_script = 'embed.js';
       
     (function () {

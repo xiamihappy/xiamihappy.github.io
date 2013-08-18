@@ -4,7 +4,7 @@
   <title><![CDATA[Category: VIM | 虾米也是虾]]></title>
   <link href="http://xiamihappy.github.io/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://xiamihappy.github.io/"/>
-  <updated>2013-08-14T22:56:41+08:00</updated>
+  <updated>2013-08-18T21:18:05+08:00</updated>
   <id>http://xiamihappy.github.io/</id>
   <author>
     <name><![CDATA[Xiami Reid]]></name>
@@ -55,7 +55,11 @@
 <code>w</code> Forward one word<br/>
 <code>cw</code> Change word<br/>
 <code>u</code> Undo
-<code>Ctrl-R</code> Redo</p>
+<code>Ctrl-R</code> Redo
+<code>vim -N</code> Use newer Vim mode not compatible with original vi<br/>
+<code>:w !sudo tee %</code> with root permissions</p>
+
+<h4>Edit</h4>
 
 <p><code>d$</code> Delete through end of line</p>
 
